@@ -12,8 +12,10 @@ from dash.dependencies import Input, Output
 #-----------------------------------------------------------------------------------------------------------------------
 ### Data
 
-df_basics = pd.read_csv("",
-                        sep = "")
+df_basics = pd.read_csv("Data/title.basics.tsv",
+                        sep = "\t")
+df_ratings = pd.read_csv("Data/title.ratings.tsv",
+                         sep = "\t")
 
 
 
